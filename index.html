@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ULTRABOARD FACONPRO - MAKMUR JAYA FARM</title>
+
+    <meta property="og:title" content="ULTRABOARD FACONPRO">
+    <meta property="og:description" content="Webapp Manajemen Peternakan Praktis & Profesional.">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:url" content="https://github.com/greenlandagrofarm/makmurjayafarm_arifebriansyah/">
+    
+    <meta property="og:image" content="https://i.ibb.co.com/W4yxqzW7/makmur-jaya-farm.png">
+    
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <style>
         body, html {
             margin: 0;
@@ -11,6 +22,7 @@
             height: 100%;
             width: 100%;
             overflow: hidden;
+            /* Background layar aplikasi utama putih */
             background-color: #ffffff;
         }
         iframe {
@@ -22,29 +34,29 @@
             border: none;
             z-index: 1;
         }
-        /* Loader dengan teks Indigo Purple (Ungu Modern) */
+        /* Loader dengan teks Hijau Tosca */
         #loader {
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            /* Warna Ungu Indigo sesuai tema Ultra */
-            color: #4f46e5;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            /* Warna Hijau Tosca */
+            color: #008080;
+            font-family: Arial, sans-serif;
             text-align: center;
-            font-weight: 900; /* Dibuat lebih tebal agar tegas */
-            text-transform: uppercase; /* Dibuat kapital agar senada dengan UI baru */
-            letter-spacing: 0.1em;
+            font-weight: bold;
             z-index: 2;
         }
     </style>
 </head>
 <body>
-    <div id="loader">Memuat Aplikasi Jika Koneksi Terputus Mohon Refresh...</div>
+
+    <div id="loader">Memuat Aplikasi Mohon Tunggu..Silahkan Refresh Jika Koneksi Terputus...</div>
     
     <iframe 
-        src="https://script.google.com/macros/s/AKfycbwS34VD4ETHwhE89tIT9ZFfE0NiOk7ZlbudAkegwWXFQBuG9Y6O7RkK-ieWneY3TlzY/exec" 
+        src="https://script.google.com/macros/s/AKfycbwlC9GBqlcdXUTMZPj21RCR26lVtpchBmYwc3dhlpAkXUySovff-CgHUbt3lfyA_zP1/exec" 
         onload="document.getElementById('loader').style.display='none';">
     </iframe>
+
 </body>
 </html>
